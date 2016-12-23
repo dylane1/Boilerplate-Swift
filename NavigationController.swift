@@ -18,9 +18,9 @@ class NavigationController: UINavigationController {
         var titleLabelAttributes: [String : AnyObject] = [NSForegroundColorAttributeName : Theme.navBarTitleColor]
         
         if isTitle {
-            titleLabelAttributes[NSFontAttributeName] = UIFont(name: Constants.NavigationControllerFont.appTitle, size: 18)!
+            titleLabelAttributes[NSFontAttributeName] = UIFont(name: Constants.FontName.markerFelt, size: 18)!
         } else {
-            titleLabelAttributes[NSFontAttributeName] = UIFont(name: Constants.NavigationControllerFont.regular, size: 18)
+            titleLabelAttributes[NSFontAttributeName] = UIFont(name: Constants.FontName.avenirHeavy, size: 18)
         }
         
         navigationBar.titleTextAttributes = titleLabelAttributes

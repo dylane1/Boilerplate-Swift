@@ -16,7 +16,7 @@ class TabBarController: UITabBarController {
         tabBar.tintColor = Theme.buttonTint
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         /// Shift icon down
 //        for item in viewControllers! {

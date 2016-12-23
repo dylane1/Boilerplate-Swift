@@ -13,7 +13,8 @@ struct Constants {
     //MARK: - Storyboard
     
     struct StoryBoardID {
-        static let main             = "Main"
+        static let main                 = "Main"
+        static let activityIndicatorVC  = "activityIndicatorVC"
     }
     
     //MARK: - Network
@@ -29,6 +30,7 @@ struct Constants {
         static let americanTypewriter   = "AmericanTypewriter-Bold"
         static let arial                = "Arial-BoldMT"
         static let avenir               = "Avenir-Black"
+        static let avenirHeavy          = "Avenir-Heavy"
         static let avenirNext           = "AvenirNext-Heavy"
         static let avenirNextCondensed  = "AvenirNextCondensed-Heavy"
         static let copperplate          = "Copperplate-Bold"
@@ -54,7 +56,7 @@ struct Constants {
     
     struct FileSystem {
         static let documentsURL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
-        static let applicationSupport = NSSearchPathForDirectoriesInDomains(.ApplicationSupportDirectory, .userDomainMask, true)[0]
+        static let applicationSupport = NSSearchPathForDirectoriesInDomains(.applicationSupportDirectory, .userDomainMask, true)[0]
     }
     
     struct ArchiveFile {

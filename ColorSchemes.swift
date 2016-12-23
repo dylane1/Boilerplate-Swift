@@ -36,6 +36,10 @@ struct Theme {
     /// Photo Album View
     static let collectionViewBackground = UIColor.rangoonGreen()
     
+    /// Activity Indicator
+    static let activityIndicatorCircle0 = UIColor.romance()
+    static let activityIndicatorCircle1 = UIColor.timberGreen()
+    
 }
 
 /**
